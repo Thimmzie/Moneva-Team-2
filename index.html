@@ -3,229 +3,371 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Budget</title>
-    <link rel="stylesheet" href="budget.css" />
-    <link rel="stylesheet" href="budget-tab.css" media="(max-width:1024px)" />
-    <link rel="stylesheet" href="budget-mobile.css" media="(max-width:600px)" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <title>Moneva</title>
+     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="tablet.css" media="(max-width:1024px)" />
+     <link rel="stylesheet" href="mobile.css" media="(max-width:600px)" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body>
-    <aside>
-      <div class="sidebar">
-        <img id="site-logo" src="images/Group 34757.png" />
-        <ul>
-          <div class="grey-menu1">
-            <img id="nav-bar-icon-1" src="images/category-white.png" />
-            <p><a href="#">Dashboard</a></p>
-          </div>
-          <div class="grey-menu1">
-            <img id="nav-bar-icon-2" src="images/receipt.png" />
-            <p><a href="#">Transactions</a></p>
-          </div>
-          <div class="blue-menu">
-            <img id="nav-bar-icon-3" src="images/wallet white.png" />
-            <p><a href="#">Budgets</a></p>
-          </div>
-          <div class="grey-menu1">
-            <img id="nav-bar-icon-4" src="images/piggy-bank.png" />
-            <p><a href="#">Savings</a></p>
-          </div>
-          <div class="grey-menu1">
-            <img id="nav-bar-icon-5" src="images/graph.png" />
-            <p><a href="#">Reports & Analytics</a></p>
-          </div>
-        </ul>
-        <div class="sidebar-footer-opt1">
-          <ul>
-            <div class="grey-menu1">
-              <img id="sidebar-footer-img" src="images/help-circle.png" />
-              <p><a href="#">Get help</a></p>
-            </div>
-            <div class="grey-menu1">
-              <img id="sidebar-footer-img" src="images/setting-2.png" />
-              <p><a href="#">Settings</a></p>
-            </div>
+<body>
+  <header id="Home">
+    <div class="header-container">
+      <div class="menu-div-big">
+      <div class="menu-div">
+        <div class="logo-div">
+          <img id="logo-img" src="images/Group 34757.png" />
+        </div>
+        <div class="header-menu">
+          <ul class="nav-bar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#Company">Company</a></li>
           </ul>
         </div>
-        <div class="sidebar-logout">
-          <div><img src="images/Avatars.png" /></div>
-          <div class="sidebar-logout-text">
-            <p>Drizzy Dremo</p>
-            <p>drizzyd@gmail.co...</p>
-          </div>
-          <div class="logout-icon"><img src="images/logout.png" /></div>
+        <div class="button-div">
+          <a href="#Pricing"><button class="btn1">Get started</button></a>
+        </div>
+         <div class="burger-icon2"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      </div>
+      <div class="hero-box-1">
+        <h2>
+          Take Control of Your <br />
+          <span class="hero-span">Finances with Moneva</span>
+        </h2>
+        <p>
+          Your all-in-one tool for managing budgets, tracking expenses, and
+          <br />
+          reaching savings goals
+        </p>
+        <div class="hero-buttons">
+          <a href="#Pricing"><button class="btn2">Get started</button></a>
+          <a href="#Features"><button class="btn3">Explore features</button></a>
+        </div>
+        <div class="hero-img-div">
+          <img id="hero-img" src="images/hero frame 1.png" />
         </div>
       </div>
-    </aside>
-    <div class="main-page">
-      <header>
-        <div class="header-container">
-          <div class="burger-icon2"><i class="fa-solid fa-bars"></i></div>
-          <div class="header-search-box">
-            <input
-              type="search"
-              id="search-through"
-              name="gsearch"
-              placeholder="Search features and budget"
-            />
-            <i class="fa fa-search"></i>
-          </div>
-          <div class="header-button-div">
-            <button class="btn1">
-              <div class="header-button-div-img">
-                <img id="header-button-icon" src="images/AI Icon 1.png" />
-              </div>
-              <div class="header-button-div-text">Try monAI</div>
-            </button>
-          </div>
-          <div class="notification-div">
-            <img src="images/notification.png" />
-            <img id="red-dot" src="images/Ellipse 17.png" />
-          </div>
-          <div class="user-box">
-            <div><img src="images/Avatars.png" /></div>
-            <div class="user-box-name">
-              <p>Drizzy Dremo<i class="fa fa-angle-down"></i></p>
-            </div>
-          </div>
-        </div>
-         <div class="header-search-box-mobile">
-          <input
-            type="search"
-            id="search-through-mobile"
-            name="gsearch-mobile"
-            placeholder="Search features and budget"
-          />
-          <i class="fa fa-search"></i>
-        </div>
-        <div class="horizontal-line"></div>
-      </header>
-       <section>
-        <div class="dashboard-div">
-          <div class="dashboard-slide1">
-            <div class="dashboard-text">
-              <h2>Budgets</h2>
-              <p>Here's what's happening today</p>
-            </div>
-            <div class="dashboard-date">
-              <p><i class="fa fa-calendar"></i>05/05/2024-05/05/2025</p>
-            </div>
-             <div class="calendar-mobile"><i class="fa fa-calendar"></i></div>
-            <div class="dashboard-img-div">
-              <img id="dashboard-img" src="images/frame.png" />
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class="content-slide1">
-            <div class="monthly-budget-box">
-              <h2>Monthly Budget</h2>
-              <img id="monthly-img" src="images/Group 34646.png">
-              <div class="monthly-line"></div>
-              <div class="budget-tracked-item">
-                <div> 
-                  <img id="spent-img" src="images/budget-spent.png" />
-                  <p>N250,000</p>
-                 </div>
-              <div> 
-                <img id="left-img" src="images/budget-left.png" />
-                 <p>N50,000</p>
-              </div>
-             </div>
-            </div>
-             <div class="spending-trends-box">
-              <div class="spending-item1">
-                <div class="spending-slide1-text">
-                <h2 class="trends">Spending Trends</h2>
-                <p class="average">Avg per month</p>
-                <p class="average-figure">N150,000</p>
-               </div>
-              <div><p class="view">view all</p></div>
-              </div>
-            <div class="month-graph">
-              <div class="jan">
-                <p class="jan-chart"></p>
-                <p class="tag">Jan</p>
-              </div>
-              <div class="feb">
-                <p class="feb-chart"></p>
-                <p class="tag">Feb</p>
-              </div>
-              <div class="march">
-                <p class="march-chart"></p>
-                <p class="tag">Mar</p>
-              </div>
-              <div class="april">
-                <p class="april-chart"></p>
-                <p class="tag">April</p>
-              </div>
-              <div class="may">
-                <p class="may-chart"></p>
-                <p class="tag">May</p>
-              </div>
-              <div class="june">
-                <p class="june-chart"></p>
-                <p class="tag">Jun</p>
-              </div>
-            </div>
-            <div class="horizontal-dotted"></div>
-            <div class="horizontal-dotted-2"></div>
-            <div class="horizontal-dotted-3"></div>
-            <div class="horizontal-dotted-4"></div>
-            <div class="horizontal-dotted-5"></div>
-            <div class="horizontal-dotted-6"></div>
-          </div>
-           <div class="alerts-container">
-              <div class="alerts-heading">
-                <div><h2>Alerts</h2></div>
-                <div><p class="view">view all</p></div>
-              </div>
-              <img id="alert-img" src="images/pink-frame.png">
-              <img id="alert-img" src="images/green-frame.png">
-            </div>
-          </div>
-           <div class="
-           ">
-            <div class="category-item">
-              <div><h1>Categories</h1></div>
-              <div class="categories-right">
-                 <div class="mobile-right">
-                <button class="filter-btn-mobile"><i class="fa-solid fa-sliders"></i></button>
-                <button class="add-btn-mobile"><i class="fa-solid fa-plus"></i></button>
-              </div>
-                <button class="filter-btn"><i class="fa-solid fa-sliders"></i>Filters</button>
-                <button class="add-btn"><i class="fa-solid fa-plus"></i>Add new</button>
-              </div>
-              
-            </div >
-            <div class="category-big-list">
-            <div class="category-list">
-              <div class="category-img-div"><img id="category-img" src="images/health.png"></div>
-              <img id="category-img" src="images/entertainment.png">
-              <img id="category-img" src="images/transportation.png">
-            </div>
-              <div class="category-list">
-              <img id="category-img" src="images/dining.png">
-              <img id="category-img" src="images/rent.png">
-              <img id="category-img" src="images/utilities.png">
-            </div>
-             <div class="category-list">
-              <img id="category-img" src="images/emergency.png">
-              <img id="category-img" src="images/subscription.png">
-              <img id="category-img" src="images/savings.png">
-            </div>
-             <div class="category-list">
-              <img id="category-img" src="images/miscellaneous.png">
-              </div>
-            </div>
-          </div>
-        </section>
     </div>
-  </body>
+  </header>
+  <section>
+    <div class="partners-container">
+      <h1>
+        More than 100+ <br />
+        companies partner
+      </h1>
+      <img id="partner-img" src="images/visa.png" />
+      <img id="partner-img" src="images/western-union.png" />
+      <img id="partner-img" src="images/shop-pay.png" />
+      <img id="partner-img" src="images/american.png" />
+      <img id="partner-img" src="images/paypal.png" />
+    </div>
+  </section>
+  <section id="Features">
+    <div class="features-container">
+      <div class="features-slide1">
+        <button class="btn4">
+          <i class="fa-solid fa-circle"></i>Features
+        </button>
+        <h2>
+          Amazing features to help you <br />
+          manage your money
+        </h2>
+        <p>
+          Maximize your finances with out user friendly features that help
+          <br />
+          you track and manage your finances
+        </p>
+      </div>
+      <div class="budget-box">
+        <div class="budget-slide1">
+          <h2>Budgeting Made Easy</h2>
+          <p>
+            Track your spending by category and set spending <br />
+            limits with progress chart
+          </p>
+        </div>
+        
+        <div class="budget-slide2">
+          <img id="utilities-img-new" src="images/utilities.png" />
+          <img id="utilities-img-new" src="images/entertainment.png" />
+        </div>
+        <div class="budget-slide3">
+          <img id="budget-img-new" src="images/budget.png" />
+        </div>
+
+      </div>
+      <div class="savings-expense-slide">
+        <div class="savings-box">
+          <h2>Savings Goals</h2>
+          <p>
+            Set and track your savings with personalized <br />
+            recommendations to stay on target
+          </p>
+          <img id="savings-img" src="images/savings.png" />
+        </div>
+        <div class="expense-box">
+          <div class="expense-img-div"><img id="expense-img" src="images/expense.png" /></div>
+          <div class="expense-text-div">
+          <h2>Expense Tracking</h2>
+          <p>
+            View and manage transactions, filter by date, <br />
+            amount, or category
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="insights-box">
+        <div class="insights-text">
+          <h2>Insights & Analytics</h2>
+          <p>
+            Understand your spending habits with in-depth <br />
+            reports and AI-driven insights
+          </p>
+        </div>
+        <div class="insights-img">
+          <img id="insights-sub-img" src="images/insights-2.png" />
+          <img id="insights-sub-img" src="images/insights-1.png" />
+        </div>
+      </div>
+      <div class="financial-freedom-box">
+        <h2>Three Steps to Financial Freedom</h2>
+        <img id="lines" src="images/Line 80.png" />
+        <div class="three-musketeers">
+          <div class="sign-up">
+            <h1 class="num-tag">1</h1>
+            <div class="pricipal-asset-div1">
+            <p class="principal">Sign up</p>
+            <p class="asset">
+              Create your account in minutes and <br />
+              start your journey to better finances
+            </p>
+            </div>
+          </div>
+          <div class="set-budget">
+            <img id="lines2" src="images/Line 80.png" />
+           <div class="num-tag-div2"><h1 class="num-tag">2</h1></div> 
+           <div class="pricipal-asset-div2">
+            <p class="principal">Set Your Budgets</p>
+            <p class="asset">
+              Define your spending categories and <br />
+              set achievable goals
+            </p>
+            </div>
+          </div>
+          <div class="set-budget">
+            <img id="lines3" src="images/Line 80.png" />
+            <div class="num-tag-div3"><h1 class="num-tag">3</h1></div>
+             <div class="pricipal-asset-div3">
+            <p class="principal">Track your finance</p>
+            <p class="asset">
+              Monitor your progress with real-time update <br />
+              and AI-driven insights
+            </p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Company">
+    <div class="testimonial-container">
+      <div class="testimonial-slide1">
+        <button class="btn5">
+          <i class="fa-solid fa-circle"></i>Testimonials
+        </button>
+        <h2>What people say about us</h2>
+        <p>
+          Don’t just take our word for it hear from our users about their
+          <br />
+          experience with moneva
+        </p>
+      </div>
+      <div class="review">
+        <img id="icon-1" src="images/Ellipse 30.png" />
+        <img id="icon-2" src="images/Ellipse 31.png" />
+        <img id="icon-3" src="images/Ellipse 28.png" />
+        <img id="icon-4" src="images/Ellipse 33.png" />
+        <img id="icon-5" src="images/Ellipse 25.png" />
+        <img id="icon-6" src="images/Ellipse 32.png" />
+        <img id="icon-7" src="images/Ellipse 26.png" />
+        <img id="icon-8" src="images/Ellipse 27.png" />
+        <img id="icon-9" src="images/Ellipse 29.png" />
+        <div class="adetayo-review">
+          <p>
+            Moneva has completely transformed how I manage <br />
+            my finances. The AI-powered budgeting tools make it <br />
+            so easy to set realistic limits and stick to them, while <br />
+            the predictive alerts help me avoid overspending
+          </p>
+          <h4>Adetayo Johnson</h4>
+          <img id="star-review" src="images/star_review-removebg-preview.png" />
+        </div>
+        <div class="angle-left"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="angle-right"><i class="fa-solid fa-angle-right"></i></div>
+      </div>
+    </div>
+  </section>
+  <section id="Pricing">
+    <div class="pricing-container">
+      <div class="pricing-top">
+        <button class="btn6">
+          <i class="fa-solid fa-circle"></i>Pricing
+        </button>
+        <h2>Flexible Plans for Every Budget</h2>
+        <p>
+          Whether you’re new to budgeting or ready for advanced insights,
+          <br />
+          there’s a plan for everyone
+        </p>
+      </div>
+      <div class="pricing-toggle">
+        <button class="toggle-btn">Monthly</button>
+        <p class="toggle-text">Annually</p>
+      </div>
+      <div class="slider-container">
+      <div class="slides">
+      <div class="pricing-box">
+        <div class="pricing-ash">
+          <p class="level">Free</p>
+          <p class="pricing-text">
+            Ideal for beginners who want to test the <br />
+            waters with simple budgeting tools.
+          </p>
+          <div class="price-cta">
+            <p class="cta-content">&#8358<span class="cta-content-2">0</span><span class="cta-content-3">/month</span>
+            </p>
+            <button class="btn10">Get started</button>
+          </div>
+          <ul class="pricing-box-list">
+            <li><i class="fa-solid fa-check"></i>Customizable Budgets</li>
+            <li><i class="fa-solid fa-check"></i>Savings Goals Tracker</li>
+            <li><i class="fa-solid fa-check"></i>Basic Customer Support</li>
+          </ul>
+        </div>
+        <div class="pricing-blue">
+          <div class="blue-top-div">
+            <p class="level-2">Standard</p>
+            <p class="recommended">Recommended</p>
+          </div>
+          <p class="pricing-text-2">
+            For users looking to take control of their <br> finances with data-driven insights
+          </p>
+          <div class="price-cta-2">
+            <p class="cta-diff-content">&#8358<span class="cta-diff-content-2">2500</span><span
+                class="cta-diff-content-3">/month</span></p>
+            <button class="btn11">Get started</button>
+          </div>
+          <ul class="pricing-box-list-2">
+            <li><i id="check-test" class="fa-solid fa-check"></i>All Free Plans</li>
+            <li><i id="check-test" class="fa-solid fa-check"></i>Spending Insights</li>
+            <li><i id="check-test" class="fa-solid fa-check"></i>Savings Recommendations</li>
+            <li><i id="check-test" class="fa-solid fa-check"></i>Advanced Customer Support</li>
+          </ul>
+        </div>
+        <div class="pricing-ash">
+          <p class="level-3">Premium</p>
+          <p class="pricing-text">
+            Best for users ready to invest in their <br> financial health with enhanced support
+          </p>
+          <div class="price-cta">
+            <p class="cta-content">&#8358<span class="cta-content-2">4000</span><span
+                class="cta-content-3">/month</span></p>
+            <button class="btn10">Get started</button>
+          </div>
+          <ul class="pricing-box-list">
+            <li><i class="fa-solid fa-check"></i>All Standard Plan</li>
+            <li><i class="fa-solid fa-check"></i>Personalized Financial Insights</li>
+            <li><i class="fa-solid fa-check"></i>Exportable Reports</li>
+            <li><i class="fa-solid fa-check"></i>Priority Customer Support 24/7</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+      <div class="journey-box">
+        <p class="journey-principal">Start Your Journey to <br> Financial Wellness with Moneva</p>
+        <p class="journey-asset">Take control of your finances today and watch your financial <br> dreams become reality
+        </p>
+        <a href="#Pricing"><button class="btn12">Get started</button></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-slide1">
+        <img id="footer-logo" src="images/Group 34757.png">
+        <p class="footer-text-1">Take control of your finances today and <br> watch your financial dreams become </p>
+        <p class="footer-text-2">Follow our latest news</p>
+        <div class="input-button-mashup">
+          <p>Email address</p><button class="btn13">Submit</button>
+        </div>
+      </div>
+      <div class="footer-ul-div">
+        <p>Company</p>
+        <ul class="footer-ul">
+          <li>About us</li>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>Feather Internet</li>
+        </ul>
+      </div>
+      <div class="footer-ul-div">
+        <p>Product</p>
+        <ul class="footer-ul">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>FAQs</li>
+          <li>API Access</li>
+        </ul>
+      </div>
+      <div class="footer-ul-div">
+        <p>Resources</p>
+        <ul class="footer-ul">
+          <li>Help Center</li>
+          <li>User Guide</li>
+          <li>Financial Tips</li>
+          <li>Community Forum</li>
+        </ul>
+      </div>
+      <div class="footer-ul-div">
+        <p>Legal</p>
+        <ul class="footer-ul">
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+          <li>Financial Tips:</li>
+          <li>Data Export and Deletion</li>
+        </ul>
+      </div>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="footer-extension">
+      <div class="application">
+        <img id="playstore" src="images/googleplay.png">
+        <img id="appstore" src="images/appstore.png">
+      </div>
+      <div class="social-links">
+        <img id="social-img" src="images/facebook link.png">
+        <img id="social-img" src="images/linkedln link.png">
+        <img id="social-img" src="images/twitter link.png">
+        <img id="social-img" src="images/instagram link.png">
+        <img id="social-img" src="images/gmail link.png">
+      </div>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
 </html>
