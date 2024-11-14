@@ -15,7 +15,7 @@ html {
 }
 
 .header-container {
-  height: 156vh;
+  height: 154vh;
   background-image: url(images/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background\ 1.svg);
   background-color: rgb(19, 12, 39);
   padding-top: 3rem;
@@ -23,6 +23,7 @@ html {
 .menu-div-big {
   position: fixed;
   margin-left: 21rem;
+  z-index: 1000;
 }
 .menu-div {
   background-color: #ffffff;
@@ -82,14 +83,14 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 17.8rem;
 }
 .hero-box-1 h2 {
-  font-size: 5.5rem;
+  font-size: 5.2rem;
   color: #ffffff;
   font-family: "Gilroy-medium", sans-serif;
   font-weight: bold;
-  padding-bottom: 3rem;
+  padding-bottom: 2.7rem;
 }
 .hero-span {
   margin-left: -2.5rem;
@@ -98,12 +99,14 @@ html {
 }
 .hero-box-1 p {
   color: #cecece;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-family: "Gilroy-light", sans-serif;
   text-align: center;
   line-height: 2.8rem;
   padding-bottom: 3rem;
   margin-left: -1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
 }
 .btn2 {
   background-color: #8a66f1;
@@ -139,7 +142,7 @@ html {
   color: #808080;
 }
 #hero-img {
-  margin-top: 13.5rem;
+  margin-top: 6.5rem;
 }
 .partners-container {
   display: flex;
@@ -184,9 +187,11 @@ html {
   padding-bottom: 3rem;
 }
 .features-slide1 p {
-  color: #595959;
-  font-size: 1.7rem;
+  color: #868686;
+  font-size: 1.5rem;
   text-align: center;
+  font-weight: 100;
+  line-height: 2rem;
 }
 .budget-box {
   display: flex;
@@ -208,18 +213,31 @@ html {
   padding-bottom: 2.3rem;
 }
 .budget-slide1 p {
-  color: #737373;
-  font-size: 1.7rem;
+  color: #868686;
+  font-size: 1.5rem;
   line-height: 2.5rem;
 }
 .budget-slide2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-left: 4rem;
+  margin-top: 0rem;
 }
 .budget-slide3 {
   margin-top: 2.2rem;
-  margin-left: -3rem;
+  margin-left: -4rem;
+}
+#utilities-img-new {
+  width: 21vw;
+  margin-top: 2.3rem;
+}
+#utilities-img-new2 {
+  width: 21vw;
+  margin-top: 2.2rem;
+}
+#budget-img-new {
+  margin-top: 0.34rem;
 }
 .savings-expense-slide {
   display: flex;
@@ -242,13 +260,14 @@ html {
   padding-bottom: 2.3rem;
 }
 .savings-box p {
-  color: #737373;
-  font-size: 1.7rem;
+  color: #868686;
+  font-size: 1.5rem;
   padding-bottom: 4.3rem;
   line-height: 2.5rem;
 }
 #savings-img {
   margin-left: 4rem;
+  margin-top: 0.7rem;
 }
 .expense-box {
   background-color: #ffe4e4;
@@ -268,8 +287,8 @@ html {
   padding-left: 7.7rem;
 }
 .expense-box p {
-  color: #737373;
-  font-size: 1.7rem;
+  color: #868686;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   padding-left: 7.7rem;
 }
@@ -298,7 +317,7 @@ html {
   line-height: 2.5rem;
 }
 .insights-img {
-  margin-top: 5.5rem;
+  margin-top: 6rem;
   margin-left: 5rem;
 }
 #insights-sub-img {
@@ -550,7 +569,7 @@ html {
   height: 5vh;
   border: none;
   margin-left: 0.7rem;
-  margin-top: 0.6rem;
+  margin-top: 0.8rem;
   background-color: #ffffff;
 }
 .toggle-text {
@@ -558,6 +577,9 @@ html {
   color: rgb(126, 126, 126, 0.6);
   padding-right: 1.6rem;
   padding-top: 1.3rem;
+}
+.mobile-toggle {
+  visibility: hidden;
 }
 .pricing-box {
   display: flex;
@@ -863,4 +885,7 @@ html {
 }
 #social-img {
   padding-right: 1.8rem;
+}
+.mobile-footer {
+  visibility: hidden;
 }

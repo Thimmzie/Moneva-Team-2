@@ -16,8 +16,8 @@ html {
 }
 
 .header-container {
-  height: 156vh;
-  background-image: url(images/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background\ 1.svg);
+  height: 154vh;
+  background-image: url(images/tablet\ screen\ width.png);
   background-color: rgb(19, 12, 39);
   padding-top: 3rem;
   width: 100%;
@@ -85,7 +85,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15rem;
+  margin-top: 17.5rem;
 }
 .hero-box-1 h2 {
   font-size: 4.5rem;
@@ -142,7 +142,7 @@ html {
   color: #808080;
 }
 #hero-img {
-  margin-top: 14.2rem;
+  margin-top: 10.3rem;
 }
 .partners-container {
   display: block;
@@ -194,7 +194,7 @@ html {
 }
 .features-slide1 p {
   color: #595959;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 .budget-box {
@@ -241,13 +241,24 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-top: -0.2rem;
+  margin-left: -1rem;
 }
 .budget-slide3 {
-  margin-top: 2.2rem;
+  margin-top: 2.5rem;
   margin-left: -3rem;
 }
 #utilities-img-new {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+  width: 29vw;
+}
+#utilities-img-new2 {
+  width: 29vw;
+  margin-top: -2.5rem;
+}
+#budget-img-new {
+  margin-top: -0.6rem;
 }
 .savings-expense-slide {
   display: flex;
@@ -281,6 +292,7 @@ html {
 #savings-img {
   margin-left: 2.6rem;
   width: 35vw;
+  margin-top: 5.8rem;
 }
 .expense-box {
   background-color: #ffe4e4;
@@ -291,7 +303,7 @@ html {
   margin-right: -3rem;
 }
 #expense-img {
-  margin-left: 2rem;
+  margin-left: 4rem;
   width: 38vw;
 }
 .expense-box h2 {
@@ -334,7 +346,7 @@ html {
   padding-left: 12rem;
 }
 .insights-img {
-  margin-top: 5.5rem;
+  margin-top: 5.8rem;
   margin-left: 10rem;
 }
 #insights-sub-img {
@@ -545,7 +557,7 @@ html {
 .angle-right {
   position: absolute;
   top: 51rem;
-  left: 71.2rem;
+  left: 73rem;
 }
 .pricing-container {
   height: 225vh;
@@ -601,6 +613,9 @@ html {
   color: rgb(126, 126, 126, 0.6);
   padding-right: 1.6rem;
   padding-top: 1.3rem;
+}
+.mobile-toggle {
+  visibility: hidden;
 }
 .pricing-box {
   display: flex;
@@ -916,4 +931,7 @@ html {
 }
 #social-img {
   padding-right: 1.8rem;
+}
+.mobile-footer {
+  visibility: hidden;
 }

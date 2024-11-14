@@ -146,6 +146,7 @@ html {
   margin-left: 0rem;
   display: block;
   overflow-x: hidden;
+  position: relative;
 }
 .header-container {
   display: flex;
@@ -160,6 +161,7 @@ html {
 .fa-bars {
   font-size: 2.5rem;
 }
+
 .header-search-box {
   position: relative;
 }

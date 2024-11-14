@@ -16,8 +16,8 @@ html {
 }
 
 .header-container {
-  height: 106vh;
-  background-image: url(images/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background\ 1.svg);
+  height: 105vh;
+  background-image: url(images/tablet\ screen\ width.png);
   background-color: rgb(19, 12, 39);
   padding-top: 3rem;
   width: 100%;
@@ -39,7 +39,7 @@ html {
   padding-top: 1.5rem;
   padding-bottom: 2.5rem;
   margin: auto;
-  box-shadow: 0px 20px 50px 0px rgba(105, 105, 105, 0.07);
+  box-shadow: 10px 20px 3px rgba(105, 105, 105, 0.07);
 }
 .nav-bar {
   list-style: none;
@@ -153,7 +153,7 @@ html {
   text-decoration: none;
 }
 #hero-img {
-  margin-top: 4.7rem;
+  margin-top: 4rem;
   width: 75vw;
 }
 .partners-container {
@@ -265,17 +265,26 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-top: 0rem;
+  margin-left: -2rem;
 }
 .budget-slide3 {
-  margin-top: 2.2rem;
+  margin-top: 1.7rem;
   margin-left: -3rem;
 }
 #utilities-img-new {
   margin-bottom: 1.5rem;
-  width: 36vw;
+  width: 37.9vw;
+  margin-left: 2rem;
+}
+#utilities-img-new2 {
+  width: 37.9vw;
+  margin-left: 2rem;
+  margin-top: -1.4rem;
 }
 #budget-img-new {
   width: 37.5vw;
+  margin-top: 0.5rem;
 }
 .savings-expense-slide {
   display: block;
@@ -313,6 +322,7 @@ html {
 #savings-img {
   margin-left: 9rem;
   width: 41.5vw;
+  margin-top: 0.5rem;
 }
 .expense-box {
   background-color: #ffe4e4;
@@ -382,7 +392,7 @@ html {
   padding-left: 3.2rem;
 }
 .insights-img {
-  margin-top: 6.6rem;
+  margin-top: 7rem;
   margin-left: 1.5rem;
   display: flex;
 }
@@ -692,7 +702,7 @@ html {
   height: 5vh;
   border: none;
   margin-left: 0.7rem;
-  margin-top: 0.7rem;
+  margin-top: 0.8rem;
   background-color: #ffffff;
   font-size: 1.4rem;
 }
@@ -702,42 +712,37 @@ html {
   padding-right: 1.6rem;
   padding-top: 1.3rem;
 }
-#slider {
-  margin: 0 auto;
-  width: 80rem;
-  max-width: 100%;
-  text-align: center;
-}
-#slider input[type="radio"] {
-  display: none;
-}
-#slider label {
-  cursor: pointer;
-  text-decoration: none;
-}
 .pricing-box {
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
-  margin-bottom: 11rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.pricing-box::-webkit-scrollbar {
+  width: 0;
 }
 .pricing-ash {
   background-color: #f2effd;
-  width: 30vw;
+  width: 70vw;
   height: 68vh;
   border-radius: 2rem;
   padding-top: 3.2rem;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
-  display: none;
+  margin-left: -1rem;
+  margin-right: -3rem;
 }
+
 .level {
   font-size: 1.5rem;
   border: solid 0.1rem rgb(128, 128, 128, 0.3);
   border-radius: 5rem;
-  width: 8vw;
+  width: 15vw;
   height: 5vh;
   text-align: center;
   color: #787779;
@@ -779,8 +784,8 @@ html {
 .btn10 {
   background-color: #8a66f1;
   border-radius: 6rem;
-  width: 9vw;
-  height: 5vh;
+  width: 20vw;
+  height: 5.9vh;
   font-size: 1.1rem;
   color: #ffffff;
   border: none;
@@ -812,7 +817,7 @@ html {
 }
 .pricing-blue {
   background-color: #7c5cd9;
-  width: 70vw;
+  width: 55vw;
   height: 68vh;
   border-radius: 2rem;
   padding-top: 3.2rem;
@@ -904,13 +909,19 @@ html {
   font-size: 1.6rem;
   border: solid 0.1rem rgb(128, 128, 128, 0.3);
   border-radius: 5rem;
-  width: 8.8vw;
+  width: 18vw;
   height: 6vh;
   text-align: center;
   color: #787779;
   padding-top: 0.7rem;
 }
-
+.mobile-toggle {
+  visibility: visible;
+}
+.mobile-toggle img {
+  margin-left: 22rem;
+  width: 10vw;
+}
 .journey-box {
   background-image: url("images/last-bg.png");
   height: 60vh;
@@ -954,7 +965,7 @@ html {
   background-color: #7e5dd8;
 }
 .footer-container {
-  height: 160vh;
+  height: 80vh;
   display: block;
   justify-content: space-around;
   padding-left: 3rem;
@@ -1010,9 +1021,11 @@ html {
   font-size: 1.6rem;
   font-weight: 600;
   padding-bottom: 2.5rem;
+  display: none;
 }
 .footer-ul {
   list-style: none;
+  display: none;
 }
 .footer-ul li {
   padding-bottom: 2rem;
@@ -1052,4 +1065,74 @@ html {
   position: absolute;
 
   left: 5rem;
+}
+.mobile-footer {
+  position: relative;
+}
+.mobile-footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.mobile-footer-ul li {
+  display: inline-block;
+  position: relative;
+}
+.mobile-footer-ul li a {
+  display: block;
+  padding-bottom: 1rem;
+  color: #595959;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: start;
+}
+.mobile-footer-ul li ul.dropdown li {
+  display: block;
+}
+.mobile-footer-ul li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-left: 10rem;
+}
+.dropdown li a {
+  font-size: 1.5rem;
+  color: rgb(89, 89, 89, 0.8);
+  padding-bottom: 2rem;
+}
+
+.mobile-footer-ul li:hover ul.dropdown {
+  display: block;
+}
+.fa-angle-down {
+  margin-left: 20rem;
+}
+.fa-angle-down {
+  color: #595959;
+  font-size: 1.8rem;
+}
+.angle-one {
+  position: absolute;
+  top: 0.5rem;
+  left: 24rem;
+}
+.angle-two {
+  position: absolute;
+  top: 5.2rem;
+  left: 24rem;
+}
+.angle-three {
+  position: absolute;
+  top: 10.3rem;
+  left: 24rem;
+}
+.angle-four {
+  position: absolute;
+  top: 15.3rem;
+  left: 24rem;
+}
+.mobile-footer {
+  visibility: visible;
 }
