@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Budget</title>
-    <link rel="stylesheet" href="budget.css" />
-    <link rel="stylesheet" href="budget-tab.css" media="(max-width:1024px)" />
-    <link rel="stylesheet" href="budget-mobile.css" media="(max-width:600px)" />
+    <link rel="stylesheet" href="transportation.css" />
+    <link rel="stylesheet" href="transportation.css" media="(max-width:1024px)" />
+    <link rel="stylesheet" href="transportation.css" media="(max-width:600px)" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -16,8 +16,31 @@
     />
   </head>
   <body>
+    <div class="transportation-prompt">
+      <img id="cancel" src="images/cancel-01.png"/>
+      <div class="transportation-horizontal-line"></div>
+      <div class="transportation-img-text">
+        <div><img src="images/bus.png"></div>
+        <div class="img-text">
+          <h1>Transportation</h1>
+          <p>Monthly Budget</p>
+        </div>
+      </div>
+      <div class="header-buttons">
+        <div><button class="edit-btn"><div><img src="/images/trash.png"></div><div class="btn-text">Edit</div></button></div>
+        <div><button class="delete-btn"><div><img src="/images/delete icon.png"></div><div class="btn-text-two">Delete</div></button></div>
+        <div><button class="delete-btn"><div><img src="/images/export icon.png"></div><div class="btn-text-two">Export</div></button></div>
+      </div>
+      <div class="menu-links">
+        <p class="detail-link"><a href="#">Details</a></p>
+        <p class="alert-link"><a href="#">Alerts</a></p>
+        <p class="alert-link"><a href="#">Insights</a></p>
+      </div>
+      <div class="colored-line"></div>
+    </div>
     <aside>
       <div class="sidebar">
+        <div class="overlay"></div>
         <img id="site-logo" src="images/Group 34757.png" />
         <ul>
           <div class="grey-menu1">

@@ -9,10 +9,117 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  position: relative;
 }
 @font-face {
   font-family: "Gilroy";
   src: url(font/Gilroy/Gilroy-Regular.otf);
+}
+.transportation-prompt {
+  height: 300vh;
+  width: 33vw;
+  position: absolute;
+  left: 90rem;
+  background-color: #ffffff;
+  z-index: 1000;
+  overflow-y: visible;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+}
+#cancel {
+  margin-left: 38rem;
+}
+.transportation-horizontal-line {
+  border: solid 0.1rem #f3f3f3;
+  margin-top: 1rem;
+}
+.transportation-img-text {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.img-text {
+  margin-left: 2.2rem;
+}
+.img-text h1 {
+  color: #595959;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+.img-text p {
+  color: #aaa9a9;
+  font-size: 1.4rem;
+  padding-top: 0.6rem;
+}
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 70%;
+}
+.edit-btn {
+  background-color: #8a66f1;
+  border: none;
+  width: 6vw;
+  height: 4.5vh;
+  border-radius: 2rem;
+  color: #f0efef;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.7rem;
+  transition: 0.5s;
+}
+.edit-btn:hover {
+  background-color: #7e54f3;
+}
+.delete-btn {
+  background-color: #ffffff;
+  border: solid 0.1rem #ebe9e9;
+  width: 6.6vw;
+  height: 4.5vh;
+  border-radius: 1.8rem;
+  color: #8d8d8d;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  transition: 0.5s;
+}
+.delete-btn:hover {
+  background-color: #eeeded;
+}
+.btn-text {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.btn-text-two {
+  padding-left: 0.6rem;
+  padding-right: 0.7rem;
+  padding-top: 0.2rem;
+}
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  width: 53%;
+  margin-top: 4rem;
+}
+.detail-link a {
+  color: #706f6f;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding-left: 2.6rem;
+}
+.alert-link a {
+  color: #bdbbbb;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.colored-line {
+  width: 20rem;
 }
 .sidebar {
   background-color: #f3f0fe;
@@ -21,6 +128,16 @@ html {
   padding-top: 4rem;
   padding-left: 5rem;
   position: fixed;
+}
+.overlay {
+  width: 1836px;
+  height: 800px;
+  background-color: #202020;
+  position: absolute;
+  top: -6px;
+  left: -480px;
+  opacity: 0.4;
+  z-index: 999;
 }
 #site-logo {
   width: 9vw;
@@ -168,8 +285,9 @@ html {
   height: 6vh;
   border: none;
   border-radius: 7rem;
-  background-color: #f7f7f7;
+  background-color: #5a5a5a;
   padding-left: 4.2rem;
+  opacity: 0.1;
 }
 ::placeholder {
   color: rgba(202, 202, 202, 1);
