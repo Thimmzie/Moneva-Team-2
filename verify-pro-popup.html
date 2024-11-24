@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Process Popup</title>
+    <link rel="stylesheet" href="verify-pro-popup.css" />
+    <link
+      rel="stylesheet"
+      href="verify-pro-popup.css"
+      media="(max-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="verify-pro-popup.css"
+      media="(max-width:600px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="cover">
+      <div class="bvn-prompt">
+        <img id="cancel" src="verify-images/cancel-01.png" />
+        <img src="verify-images/padlock.png" />
+        <h1>Link your account with BVN</h1>
+        <p>
+          Linking your bank account with your BVN lets us securely <br />
+          access transaction data for accurate insights and budgeting
+        </p>
+        <button class="link-btn">Continue to link BVN</button>
+        <button class="skip-btn">Skip</button>
+      </div>
+      <div class="overlay"></div>
+      <div class="verify-header">
+        <div><img src="verify-images/verify-site-log0.png" /></div>
+        <div class="header-item-two">
+          <img id="notification" src="verify-images/notification.png" />
+          <img id="red-dot" src="verify-images/Ellipse 17.png" />
+          <img id="avatar" src="verify-images/Avatars.png" />
+          <p>Drizzy Dremo <i class="fa fa-angle-down"></i></p>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-width">
+          <div class="progress"></div>
+        </div>
+        <div class="progress-figure">
+          <h1>1<span>/3</span></h1>
+        </div>
+      </div>
+      <div class="detail-heading">
+        <h1>Tell us about yourself</h1>
+        <p>
+          Please enter the following information. This helps us verify your
+          identity <br />
+          and make sure it matches your BVN records
+        </p>
+      </div>
+      <form>
+        <div>
+          <label for="fname">First name</label><br />
+          <input type="text" id="my-name" placeholder="Enter first name" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="mname">Middle name</label><br />
+          <input type="text" id="my-name" placeholder="Enter middle name" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="lname">Last name</label><br />
+          <input type="text" id="my-name" placeholder="Enter last name" />
+        </div>
+      </form>
+      <div class="page-buttons">
+        <button class="cancel-btn">Cancel</button>
+        <button class="next-btn">Next <i class="fa fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

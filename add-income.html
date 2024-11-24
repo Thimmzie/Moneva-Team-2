@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget</title>
+     <link rel="stylesheet" href="add-income.css" />
+    <link rel="stylesheet" href="add-income.css" media="(max-width:1024px)" />
+    <link rel="stylesheet" href="add-income.css" media="(max-width:600px)" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="cover">
+        <div class="overlay"></div>
+        <div class="extra-income-container">
+          <img id="cancel" src="/budget-images/cancel-01.png"/>
+          <p class="text-one">Add extra income</p>
+          <p class="text-two">Enter additional source of income, if you’ve got one</p>
+          <div class="my-form">
+          <label for="income">Source of income</label><br />
+          <input type="text" id="income" placeholder="eg side gig" />
+          </div>
+          <div class="pop-button">
+            <button class="cancel-btn">Cancel</button>
+            <button class="next-btn">Add income</button>
+          </div>
+        </div>
+      <div class="verify-header">
+        <div><img src="/budget-images/Group 34757.png" /></div>
+        <div class="header-item-two">
+          <img id="notification" src="/budget-images/notification.png" />
+          <img id="red-dot" src="/budget-images/Ellipse 17.png" />
+          <img id="avatar" src="/budget-images/Avatars.png" />
+          <p>Drizzy Dremo <i class="fa fa-angle-down"></i></p>
+        </div>
+      </div>
+      <div class="body-content">
+        <div class="new-budget-item">
+          <p><i class="fa fa-arrow-left"></i> Add new budget</p>
+          <h1 class="progress-figure">1<span>/5</span></h1>
+        </div>
+        <div class="progress-width">
+          <div class="progress"></div>
+        </div>
+        <div class="body-content-two">
+          <h1 class="heading">Set Up Your Budget</h1>
+          <p class="body">
+            Let’s start by understanding your income and the frequency.
+          </p>
+        </div>
+      </div>
+      <div class="inner-content">
+        <p class="income">Income</p>
+        <p class="income-two">Primary Income</p>
+        <p class="zero-box"><span class="naira">&#8358</span> <span class="figure">0.00</span></p>
+        <p class="extra-income"><i class="fa fa-plus"></i> Add extra income</p>
+        <div class="horizontal-line"></div>
+        <p class="income">Frequency</p>
+        <p class="income-two">Choose how often you receive your income</p>
+        <div class="frequency-container">
+          <div class="Weekly"><p><i class="fa-solid fa-circle"></i> Weekly</p></div>
+          <div class="Weekly"><p><i class="fa-solid fa-circle"></i> Monthly</p></div>
+          <div class="Weekly"><p><i class="fa-solid fa-circle"></i> Annually</p></div>
+        </div>
+        <div class="page-buttons">
+          <button class="cancel-btn">Cancel</button>
+          <button class="next-btn">Next <i class="fa fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+

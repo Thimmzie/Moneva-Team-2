@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget</title>
+    <link rel="stylesheet" href="allocated.css" />
+    <link rel="stylesheet" href="allocated.css" media="(max-width:1024px)" />
+    <link rel="stylesheet" href="allocated.css" media="(max-width:600px)" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+     <section class="cover">
+      <div class="verify-header">
+        <div><img src="/budget-images/Group 34757.png" /></div>
+        <div class="header-item-two">
+          <img id="notification" src="/budget-images/notification.png" />
+          <img id="red-dot" src="/budget-images/Ellipse 17.png" />
+          <img id="avatar" src="/budget-images/Avatars.png" />
+          <p>Drizzy Dremo <i class="fa fa-angle-down"></i></p>
+        </div>
+      </div>
+      <div class="body-content">
+        <div class="new-budget-item">
+          <p><i class="fa fa-arrow-left"></i> Add new budget</p>
+          <h1 class="progress-figure">3<span>/5</span></h1>
+        </div>
+        <div class="progress-width">
+          <div class="progress"></div>
+        </div>
+        <div class="body-content-two">
+            <h1>Allocate Your Budget</h1>
+            <p class="content-p">Distribute your income based on your spending patterns.</p>
+        </div>
+        <div class="body-content-three">
+            <div class="content-three-item1">
+                <p class="content-p">Available Budget</p>
+                <h1><span class="naira">&#8358</span> 00<span class="kobo">.00</span></h1>
+            </div>
+            <div class="content-three-item2">
+                <div><img src="/budget-images/ai-blue.png"></div>
+                <div><p class="auto-text">Auto-allocation</p></div>
+                <div class="toggle-container">
+                  <input type="checkbox" id="check" />
+                  <label for="check" class="button"></label>
+                </div>
+            </div>
+            
+        </div>
+        <div class="horizontal-line-two"></div>
+          <div class="allocation-container">
+            <div class="allocation-row">
+              <div class="allocation-box">
+                <div class="category-flex">
+                 <div><img id="category-img" src="/budget-images/Frame 1437254610.png"></div>
+                 <div><p>Entertainment</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 20,000.00" />
+                 </div>
+              </div>
+               <div class="allocation-box">
+                <div class="category-flex">
+                 <div><img id="category-img" src="/budget-images/Frame 1437254610 (1).png"></div>
+                    <div><p>Food & Groceries</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 60,000.00" />
+                 </div>
+              </div>
+               <div class="allocation-box">
+                <div class="category-flex">
+                <div><img id="category-img" src="/budget-images/Frame 1437254610 (5).png"></div>
+                    <div><p>Utilities</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 30,000.00" />
+                 </div>
+              </div>
+            </div>
+             <div class="allocation-row">
+              <div class="allocation-box">
+                <div class="category-flex">
+                  <div><img id="category-img" src="/budget-images/Frame 1437254610 (6).png"></div>
+                  <div><p>Transportation</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 35,000.00" />
+                 </div>
+              </div>
+               <div class="allocation-box">
+                <div class="category-flex">
+                  <div><img id="category-img" src="/budget-images/Frame 1437254610 (7).png"></div>
+                  <div><p>Health & Medicals</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 20,000.00" />
+                 </div>
+              </div>
+               <div class="allocation-box">
+                <div class="category-flex">
+                <div><img id="category-img" src="/budget-images/Frame 1437254610 (4).png"></div>
+                <div><p>Rent & Housing</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 100,000.00" />
+                 </div>
+              </div>
+            </div>
+             <div class="allocation-row">
+              <div class="allocation-box">
+                <div class="category-flex">
+                 <div><img id="category-img" src="/budget-images/Frame 1437254610 (9).png"></div>
+                  <div><p>Subscription</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 40,000.00" />
+                 </div>
+              </div>
+               <div class="allocation-box">
+                <div class="category-flex">
+                  <div><img id="category-img" src="/budget-images/Frame 1437254610 (10).png"></div>
+                  <div><p>Gift & Donations</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 25,000.00" />
+                 </div>
+              </div>
+               <div class="allocation-box">
+                <div class="category-flex">
+                 <div><img id="category-img" src="/budget-images/Frame 1437254610 (13).png"></div>
+                  <div><p>Miscellaneous</p></div>
+                 </div>
+                 <div class="allocation-form">
+                  <label for="budget" id="form-text">Budget</label><br />
+                  <input type="text" id="my-budget" placeholder="&#8358 20,000.00" />
+                 </div>
+              </div>
+            </div>
+        </div>
+        <div class="page-buttons">
+                 <button class="cancel-btn"><i id="button-arrow" class="fa fa-arrow-left"></i> Previous</button>
+                 <button class="next-btn">Next <i class="fa fa-arrow-right"></i></button>
+            </div>
+    </section>
+  </body>
+</html>
+ 

@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/font/Gilroy/Gilroy-Regular.otf);
+}
+.cover {
+  position: relative;
+  height: 208vh;
+}
+.verify-header {
+  display: flex;
+  justify-content: space-between;
+  height: 13vh;
+  border-bottom: solid 0.2rem #f3f3f3;
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+.header-item-two {
+  position: relative;
+}
+#notification {
+  position: absolute;
+  right: 18.8rem;
+}
+#red-dot {
+  position: absolute;
+  right: 19.3rem;
+  top: 0.3rem;
+}
+.verify-header p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding-right: 5.6rem;
+  padding-top: 0.4rem;
+  color: #acacac;
+}
+#avatar {
+  width: 2.4vw;
+  position: absolute;
+  right: 14rem;
+  top: -0.3rem;
+}
+.fa-angle-down {
+  position: absolute;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.new-budget-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-left: 10.8rem;
+  padding-right: 11rem;
+}
+.new-budget-item p {
+  color: #595959;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.fa-arrow-left {
+  padding-right: 1.2rem;
+  cursor: pointer;
+}
+.progress-width {
+  background-color: #f7f7f7;
+  width: 42.7vw;
+  height: 0.7vh;
+  margin-top: 2.2rem;
+  margin-left: 38rem;
+  border-radius: 0.7rem;
+}
+.progress {
+  background-color: #8a66f1;
+  width: 42.7vw;
+  height: 0.7vh;
+  border-radius: 0.7rem;
+}
+
+.progress-figure {
+  color: #595959;
+  font-size: 3.3rem;
+}
+.progress-figure span {
+  color: #a0a0a0;
+  font-size: 2.1rem;
+}
+.body-content-two {
+  margin-top: 5rem;
+  text-align: center;
+}
+.body-content h1 {
+  color: #595959;
+  font-size: 2.6rem;
+  font-weight: 900;
+  padding-bottom: 2.2rem;
+}
+.content-p {
+  color: #949494;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  padding-bottom: 4.5rem;
+}
+.review-box {
+  width: 42.7vw;
+  height: 117vh;
+  border: solid 0.2rem #f3f3f3;
+  margin: auto;
+  border-radius: 1.8rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+}
+.review-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.review-item h1 {
+  color: #595959;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.edit-container {
+  display: flex;
+}
+.edit-container p {
+  color: #8a66f1;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+.review-sub-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+.review-text {
+  color: #969494;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+.review-figure {
+  color: #595959;
+  font-size: 1.37rem;
+}
+.horizontal-line-alert {
+  border-bottom: solid 0.2rem #f3f3f3;
+  width: 100%;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+.allocated {
+  display: flex;
+}
+.review-text-two {
+  color: #969494;
+  font-weight: 300;
+  font-size: 1.4rem;
+  padding-left: 1.5rem;
+  padding-top: rem;
+}
+.allocated-item-one {
+  margin-top: -0.4rem;
+}
+.page-buttons {
+  margin-top: 4.5rem;
+  display: flex;
+  margin-left: 55rem;
+}
+.cancel-btn {
+  width: 9vw;
+  height: 7vh;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 3rem;
+  color: #8a66f1;
+}
+.cancel-btn:hover {
+  background-color: #e7e7e7;
+  transition: 0.5s;
+}
+.next-btn {
+  width: 11vw;
+  height: 7vh;
+  background-color: #8a66f1;
+  border: none;
+  border-radius: 3rem;
+  color: #eceaea;
+  margin-left: 2rem;
+}
+.next-btn:hover {
+  background-color: #7548f1;
+  transition: 0.5s;
+}
+#button-arrow {
+  padding-right: 0.5rem;
+}
+.fa-arrow-right {
+  padding-left: 0.5rem;
+}
