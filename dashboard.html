@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="dashboard-tab.css"
+      media="(max-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="dashboard-mobile.css"
+      media="(max-width:600px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <aside>
+      <div class="sidebar">
+        <img id="site-logo" src="images/Group 34757.png" />
+        <ul>
+          <div class="blue-menu">
+            <img id="nav-bar-icon-1" src="images/category.png" />
+            <p><a href="#">Dashboard</a></p>
+          </div>
+          <div class="grey-menu1">
+            <img id="nav-bar-icon-2" src="images/receipt.png" />
+            <p><a href="#">Transactions</a></p>
+          </div>
+          <div class="grey-menu1">
+            <img id="nav-bar-icon-3" src="images/wallet-money.png" />
+            <p><a href="#">Budgets</a></p>
+          </div>
+          <div class="grey-menu1">
+            <img id="nav-bar-icon-4" src="images/piggy-bank.png" />
+            <p><a href="#">Savings</a></p>
+          </div>
+          <div class="grey-menu1">
+            <img id="nav-bar-icon-5" src="images/graph.png" />
+            <p><a href="#">Reports & Analytics</a></p>
+          </div>
+        </ul>
+        <div class="sidebar-footer-opt1">
+          <ul>
+            <div class="grey-menu1">
+              <img id="sidebar-footer-img" src="images/help-circle.png" />
+              <p><a href="#">Get help</a></p>
+            </div>
+            <div class="grey-menu1">
+              <img id="sidebar-footer-img" src="images/setting-2.png" />
+              <p><a href="#">Settings</a></p>
+            </div>
+          </ul>
+        </div>
+        <div class="sidebar-logout">
+          <div><img src="images/Avatars.png" /></div>
+          <div class="sidebar-logout-text">
+            <p>Drizzy Dremo</p>
+            <p>drizzyd@gmail.co...</p>
+          </div>
+          <div class="logout-icon"><img src="images/logout.png" /></div>
+        </div>
+      </div>
+    </aside>
+    <div class="main-page">
+      <header>
+        <div class="header-container">
+          <div class="burger-icon2"><i class="fa-solid fa-bars"></i></div>
+          <div class="header-search-box">
+            <input
+              type="search"
+              id="search-through"
+              name="gsearch"
+              placeholder="Search features and budget"
+            />
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="header-button-div">
+            <button class="btn1">
+              <div class="header-button-div-img">
+                <img id="header-button-icon" src="images/AI Icon 1.png" />
+              </div>
+              <div class="header-button-div-text">Try monAI</div>
+            </button>
+          </div>
+          <div class="notification-div">
+            <img src="images/notification.png" />
+            <img id="red-dot" src="images/Ellipse 17.png" />
+          </div>
+          <div class="user-box">
+            <div><img src="images/Avatars.png" /></div>
+            <div class="user-box-name">
+              <p>Drizzy Dremo<i class="fa fa-angle-down"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="header-search-box-mobile">
+          <input
+            type="search"
+            id="search-through-mobile"
+            name="gsearch-mobile"
+            placeholder="Search features and budget"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="horizontal-line"></div>
+      </header>
+      <section>
+        <div class="dashboard-div">
+          <div class="dashboard-slide1">
+            <div class="dashboard-text">
+              <h2>Dashboard</h2>
+              <p>Here's what's happening today</p>
+            </div>
+            <div class="dashboard-date">
+              <p><i class="fa fa-calendar"></i>05/05/2024-05/05/2025</p>
+            </div>
+            <div class="calendar-mobile"><i class="fa fa-calendar"></i></div>
+            <div class="dashboard-img-div">
+              <img id="dashboard-img" src="images/frame.png" />
+            </div>
+          </div>
+          <div class="accounts-container">
+            <div>
+              <img id="first-account" src="images/Group 34750.png" />
+            </div>
+            <div class="second-account">
+              <img src="images/Frame 1437253919.png" />
+              <p><span class="green">+20%</span> this month</p>
+            </div>
+            <div class="third-account">
+              <img src="images/income.png" />
+              <p><span class="red">+20%</span> this month</p>
+            </div>
+            <div class="fourth-account">
+              <img src="images/savings.png" />
+              <p><span class="green">+20%</span> this month</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="spending-budget">
+          <div class="spending-container">
+            <div class="spending-slide1">
+              <div class="spending-slide1-text">
+                <p class="trends">Spending Trends</p>
+                <p class="average">Avg per month</p>
+                <p class="average-figure">N150,000</p>
+              </div>
+              <div><p class="view">view all</p></div>
+            </div>
+            <div class="spending-slide2">
+              <div class="jan">
+                <p class="jan-chart"></p>
+                <p class="tag1">Jan</p>
+              </div>
+              <div class="feb">
+                <p class="feb-chart"></p>
+                <p class="tag2">Feb</p>
+              </div>
+              <div class="march">
+                <p class="march-chart"></p>
+                <p class="tag3">Mar</p>
+              </div>
+              <div class="april">
+                <p class="april-chart"></p>
+                <p class="tag4">April</p>
+              </div>
+              <div class="may">
+                <p class="may-chart"></p>
+                <p class="tag5">May</p>
+              </div>
+              <div class="june">
+                <p class="june-chart"></p>
+                <p class="tag6">Jun</p>
+              </div>
+              <div class="july">
+                <p class="july-chart"></p>
+                <p class="tag7">Jul</p>
+              </div>
+              <div class="august">
+                <p class="august-chart"></p>
+                <p class="tag8">Aug</p>
+              </div>
+              <div class="september">
+                <p class="september-chart"></p>
+                <p class="tag9">Sept</p>
+              </div>
+              <div class="oct">
+                <p class="oct-chart"></p>
+                <p class="tag10">Oct</p>
+              </div>
+              <div class="nov">
+                <p class="nov-chart"></p>
+                <p class="tag11">Nov</p>
+              </div>
+              <div class="dec">
+                <p class="dec-chart"></p>
+                <p class="tag12">Dec</p>
+              </div>
+            </div>
+            <div class="horizontal-dotted"></div>
+            <div class="horizontal-dotted-2"></div>
+            <div class="horizontal-dotted-3"></div>
+            <div class="horizontal-dotted-4"></div>
+            <div class="horizontal-dotted-5"></div>
+            <div class="horizontal-dotted-6"></div>
+          </div>
+          <div class="budget-container">
+            <div class="budget-slide1">
+              <div class="budget-item1"><p>Budget</p></div>
+              <div class="view"><p>view all</p></div>
+            </div>
+            <div class="budget-circle">
+              <img src="images/Group 34646.png" />
+            </div>
+            <div>
+              <img id="spent-img" src="images/budget-spent.png" />
+              <img id="left-img" src="images/budget-left.png" />
+            </div>
+            <div class="categories-item-box">
+              <p>Categories</p>
+              <img id="categories-img" src="images/entertainment.png" />
+              <img id="categories-img" src="images/save.png" />
+              <img id="categories-img" src="images/transportation.png" />
+              <img id="categories-img2" src="images/groceries.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="saving-goals-container">
+          <div class="saving-goals">
+            <div class="goals-head-item">
+              <div class="goals-head-item1"><p>Saving Goals</p></div>
+              <div><p class="view">view all</p></div>
+            </div>
+            <div class="goals-head-item2">
+              <p class="average-figure">N150,000</p>
+              <p class="last-month">
+                <span class="green2">+20%</span> than last month
+              </p>
+            </div>
+            <div class="goals-horizontal"></div>
+            <img id="goals-img" src="images/laptop.png" />
+            <img id="goals-img" src="images/progress bar savings.png" />
+            <img id="goals-img" src="images/chair.png" />
+          </div>
+          <div><img id="ai-img" src="images/Ai.png" /></div>
+        </div>
+      </section>
+      <section>
+        <div class="transactions-container">
+          <div class="transactions-head-item">
+            <p class="transact">Transactions</p>
+            <p class="view">View all</p>
+          </div>
+          <div class="transaction-header">
+            <div class="name-tag">
+              <div><input type="checkbox" id="mycheck" /></div>
+              <div class="name-tag1"><p>Name/Business</p></div>
+              <div><img src="images/transaction-icon.png" /></div>
+            </div>
+            <div class="remove">
+              <div class="name-tag">
+                <div class="name-tag1"><p>ID</p></div>
+                <div><img src="images/transaction-icon.png" /></div>
+              </div>
+            </div>
+            <div class="remove">
+              <div class="name-tag">
+                <div class="name-tag1"><p>Type</p></div>
+                <div><img src="images/transaction-icon.png" /></div>
+              </div>
+            </div>
+            <div class="adjust">
+              <div class="name-tag">
+                <div class="name-tag1"><p>Amount</p></div>
+                <div><img src="images/transaction-icon.png" /></div>
+              </div>
+            </div>
+            <div class="remove">
+              <div class="name-tag">
+                <div class="name-tag1"><p>Category</p></div>
+                <div><img src="images/transaction-icon.png" /></div>
+              </div>
+            </div>
+            <div class="remove">
+              <div class="name-tag">
+                <div class="name-tag1"><p>Date</p></div>
+                <div><img src="images/transaction-icon.png" /></div>
+              </div>
+            </div>
+            <div class="remove">
+              <div class="name-tag">
+                <div class="name-tag1"><p>Action</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="transaction-detail">
+            <div class="transaction-detail-item1">
+              <div class="transaction-check">
+                <input type="checkbox" id="mycheck" />
+              </div>
+              <div class="transaction-img-div">
+                <img src="images/Ellipse 32.png" />
+              </div>
+              <div class="transaction-names">
+                <p class="definite-name">Ifeanyi John</p>
+                <p class="mode">Transfer</p>
+              </div>
+            </div>
+            <div><p class="serial-num">#12345678901</p></div>
+            <div><button class="serial-btn">Income</button></div>
+            <div><p class="transaction-fig">N100,000</p></div>
+            <div class="remove">
+              <div>
+                <p class="transaction-text">
+                  Business<i class="fa fa-caret-down"></i>
+                </p>
+              </div>
+            </div>
+            <div class="remove">
+              <div>
+                <p class="transaction-date">Oct 24, 2024</p>
+                <p class="transaction-time">at 10:15 am</p>
+              </div>
+            </div>
+            <div class="remove">
+              <div><img src="images/3musketeers.png" /></div>
+            </div>
+          </div>
+          <div class="transaction-detail">
+            <div class="transaction-detail-item1">
+              <div class="transaction-check">
+                <input type="checkbox" id="mycheck" />
+              </div>
+              <div class="transaction-img-div">
+                <img src="images/second-img.png" />
+              </div>
+              <div class="transaction-names">
+                <p class="definite-name">Shoprite</p>
+                <p class="mode">Transfer</p>
+              </div>
+            </div>
+            <div><p class="serial-num2">#12345678901</p></div>
+            <div><button class="serial-btn2">Expense</button></div>
+            <div><p class="transaction-fig">N9,000</p></div>
+            <div class="remove">
+              <div>
+                <p class="transaction-text">
+                  Groceries<i class="fa fa-caret-down"></i>
+                </p>
+              </div>
+            </div>
+            <div class="remove">
+              <div>
+                <p class="transaction-date">Oct 18, 2024</p>
+                <p class="transaction-time">at 2:27 pm</p>
+              </div>
+            </div>
+            <div class="remove">
+              <div><img src="images/3musketeers.png" /></div>
+            </div>
+          </div>
+          <div class="transaction-detail">
+            <div class="transaction-detail-item1">
+              <div class="transaction-check">
+                <input type="checkbox" id="mycheck" />
+              </div>
+              <div class="transaction-img-div">
+                <img src="images/image3.png" />
+              </div>
+              <div class="transaction-names">
+                <p class="definite-name">Adebanjo Adeleke</p>
+                <p class="mode">Transfer</p>
+              </div>
+            </div>
+            <div><p class="serial-num3">#12345678901</p></div>
+            <div><button class="serial-btn">Expense</button></div>
+            <div><p class="transaction-fig">N85,000</p></div>
+            <div class="remove">
+              <div>
+                <p class="transaction-text">
+                  Entertainment<i class="fa fa-caret-down"></i>
+                </p>
+              </div>
+            </div>
+            <div class="remove">
+              <div>
+                <p class="transaction-date">Oct 14, 2024</p>
+                <p class="transaction-time">at 9:56 pm</p>
+              </div>
+            </div>
+            <div class="remove">
+              <div><img src="images/3musketeers.png" /></div>
+            </div>
+          </div>
+          <div class="transaction-detail">
+            <div class="transaction-detail-item1">
+              <div class="transaction-check">
+                <input type="checkbox" id="mycheck" />
+              </div>
+              <div class="transaction-img-div">
+                <img src="images/image4.png" />
+              </div>
+              <div class="transaction-names">
+                <p class="definite-name">Loxbox Save</p>
+                <p class="mode">Transfer</p>
+              </div>
+            </div>
+            <div><p class="serial-num">#12345678901</p></div>
+            <div><button class="serial-btn2">Expense</button></div>
+            <div><p class="transaction-fig">N50,000</p></div>
+            <div class="remove">
+              <div>
+                <p class="transaction-text">
+                  Savings<i class="fa fa-caret-down"></i>
+                </p>
+              </div>
+            </div>
+            <div class="remove">
+              <div>
+                <p class="transaction-date">Oct 4, 2024</p>
+                <p class="transaction-time">at 10:28 am</p>
+              </div>
+            </div>
+            <div class="remove">
+              <div><img src="images/3musketeers.png" /></div>
+            </div>
+          </div>
+          <div class="transaction-detail2">
+            <div class="transaction-detail-item1">
+              <div class="transaction-check">
+                <input type="checkbox" id="mycheck" />
+              </div>
+              <div class="transaction-img-div">
+                <img src="images/image5.png" />
+              </div>
+              <div class="transaction-names">
+                <p class="definite-name">Paypal</p>
+                <p class="mode">Transfer</p>
+              </div>
+            </div>
+            <div><p class="serial-num4">#12345678901</p></div>
+            <div><button class="serial-btn">Expense</button></div>
+            <div><p class="transaction-fig">N200,000</p></div>
+            <div class="remove">
+              <div>
+                <p class="transaction-text">
+                  Business<i class="fa fa-caret-down"></i>
+                </p>
+              </div>
+            </div>
+            <div class="remove">
+              <div>
+                <p class="transaction-date">Oct 14, 2024</p>
+                <p class="transaction-time">at 9:15 am</p>
+              </div>
+            </div>
+            <div class="remove">
+              <div><img src="images/3musketeers.png" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="transaction-mobile">
+          <div class="mobile-transaction-header">
+            <div><p class="transact">Transactions</p></div>
+            <div><p class="view">view all</p></div>
+          </div>
+          <div class="transaction-one">
+            <div class="transaction-item1">
+              <div class="transaction-img-div">
+                <img src="images/Ellipse 32.png" />
+              </div>
+              <div class="namesss">
+                <p class="definite-name">Ifeanyi John</p>
+                <p class="mode">Oct 24, 2024</p>
+              </div>
+            </div>
+            <div class="transaction-item2">
+              <p class="t-green">+N100,000.00</p>
+              <p class="mobile-transfer">Transfer</p>
+            </div>
+          </div>
+          <div class="transaction-one">
+            <div class="transaction-item1">
+              <div class="transaction-img-div">
+                <img src="images/second-img.png" />
+              </div>
+              <div class="namesss">
+                <p class="definite-name">Shoprite</p>
+                <p class="mode">Oct 18, 2024</p>
+              </div>
+            </div>
+            <div class="transaction-item2">
+              <p class="t-red">-N9,000.00</p>
+              <p class="mobile-transfer">Transfer</p>
+            </div>
+          </div>
+          <div class="transaction-one">
+            <div class="transaction-item1">
+              <div class="transaction-img-div">
+                <img src="images/image3.png" />
+              </div>
+              <div class="namesss">
+                <p class="definite-name">Adebanjo Adeleke</p>
+                <p class="mode">Oct 14, 2024</p>
+              </div>
+            </div>
+            <div class="transaction-item2">
+              <p class="t-green">85,000.00</p>
+              <p class="mobile-transfer">Transfer</p>
+            </div>
+          </div>
+
+          <div class="transaction-one">
+            <div class="transaction-item1">
+              <div class="transaction-img-div">
+                <img src="images/image4.png" />
+              </div>
+              <div class="namesss">
+                <p class="definite-name">LoxBox</p>
+                <p class="mode">Oct 4, 2024</p>
+              </div>
+            </div>
+            <div>
+              <p class="t-red">-N50,000.00</p>
+              <p class="mobile-transfer">Transfer</p>
+            </div>
+          </div>
+          <div class="transaction-one">
+            <div class="transaction-item1">
+              <div class="transaction-img-div">
+                <img src="images/image5.png" />
+              </div>
+              <div class="namesss">
+                <p class="definite-name">Paypal</p>
+                <p class="mode">Oct 4, 2024</p>
+              </div>
+            </div>
+            <div>
+              <p class="t-green">+N200,000.00</p>
+              <p class="mobile-transfer">Transfer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
