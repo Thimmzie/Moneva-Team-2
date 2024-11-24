@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(font/Gilroy/Gilroy-Regular.otf);
+}
+.cover {
+  position: relative;
+}
+.verify-header {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  border-bottom: solid 0.2rem #f3f3f3;
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+.header-item-two {
+  position: relative;
+}
+#notification {
+  position: absolute;
+  right: 18.8rem;
+}
+#red-dot {
+  position: absolute;
+  right: 19.3rem;
+  top: 0.3rem;
+}
+.verify-header p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding-right: 5.6rem;
+  padding-top: 0.4rem;
+  color: #acacac;
+}
+#avatar {
+  width: 2.4vw;
+  position: absolute;
+  right: 14rem;
+  top: -0.3rem;
+}
+.fa-angle-down {
+  position: absolute;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.body-content {
+  background-image: url("verify-images/Frame\ 1437255184.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin-left: 35rem;
+  margin-top: 13rem;
+}
+#checked {
+  margin-top: 7rem;
+  margin-left: 28.5rem;
+}
+.body-content h1 {
+  color: #595959;
+  font-size: 1.8rem;
+  padding-left: 25rem;
+  padding-top: 2rem;
+  font-family: "Gilroy-bold", sans-serif;
+}
+.body-content p {
+  color: #989898;
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 17rem;
+  padding-bottom: 1.7rem;
+}
+.complete-btn {
+  width: 9vw;
+  height: 6.5vh;
+  border-radius: 2.5rem;
+  border: none;
+  background-color: #8a66f1;
+  color: #f5f3f3;
+  margin-left: 26.5rem;
+}
+.complete-btn:hover {
+  background-color: #7b4ff3;
+  transition: 0.5s;
+}
