@@ -290,7 +290,6 @@ html {
   display: flex;
   margin-top: 2.5rem;
   margin-left: -1.5rem;
-  justify-content: space-between;
 }
 .second-account {
   width: 19vw;
@@ -333,6 +332,7 @@ html {
   border-radius: 1rem;
   padding-left: 2.3rem;
   padding-top: 1.7rem;
+  margin-top: -2rem;
 }
 .fourth-account p {
   color: rgba(117, 117, 117, 0.6);

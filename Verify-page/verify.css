@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(font/Gilroy/Gilroy-Regular.otf);
+}
+.cover {
+  margin-top: -2rem;
+  padding-top: 2rem;
+  margin-bottom: -2rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.general-body {
+  margin: 2rem;
+  display: flex;
+}
+.left-body-flex {
+  background-image: url("verify-popup images/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background\ 1.png");
+  background-color: #140d28;
+  height: 127vh;
+  width: 45.5vw;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  position: relative;
+}
+.box-header {
+  display: flex;
+  justify-content: space-between;
+}
+.box-header p {
+  color: #c9c6c6;
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+.top-div {
+  display: flex;
+}
+.fa-arrow-left {
+  color: #c9c6c6;
+  font-size: 2rem;
+  padding-right: 1rem;
+  font-weight: 300;
+  padding-top: 0.2rem;
+}
+.box-images {
+  margin-top: 21.6rem;
+}
+#box-image-one {
+  position: absolute;
+  left: 14.5rem;
+  z-index: 1;
+}
+#box-image-two {
+  position: absolute;
+  left: 24.6rem;
+  bottom: 35rem;
+  z-index: 2;
+}
+.box-text {
+  margin-top: 59.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.box-text-principal {
+  color: #fdfdfd;
+  font-size: 2.7rem;
+  text-align: center;
+  font-weight: 500;
+}
+.box-text-asset {
+  color: #dfdee2;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 2.4rem;
+}
+#slider {
+  width: 3vw;
+  margin: auto;
+}
+.right-body-flex {
+  padding-top: 7.3rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 23.5rem;
+}
+.verify-tag {
+  color: #595959;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.verify-tag-two {
+  color: #7e7e7e;
+  font-size: 1.5rem;
+  padding-top: 2.5rem;
+  line-height: 2.3rem;
+}
+.digits {
+  color: #7e7e7e;
+  font-size: 1.3rem;
+  padding-top: 6.7rem;
+}
+.entry-box-div {
+  margin-top: 2rem;
+  display: flex;
+}
+.entry-box {
+  width: 3.6vw;
+  height: 8vh;
+  border-radius: 1rem;
+  border: solid 0.1rem #efefef;
+  background-color: #ffffff;
+  margin-right: 1rem;
+}
+.entry-prompt {
+  display: flex;
+  margin-top: 1.2rem;
+}
+.entry-prompt-one {
+  color: #7e7e7e;
+  font-size: 1.3rem;
+}
+.fa-stopwatch {
+  color: rgb(180, 180, 180);
+  font-size: 1rem;
+}
+.entry-prompt-two {
+  color: #8a66f1;
+  font-size: 1.3rem;
+  padding-left: 14.8rem;
+}
+.fa-rotate-left {
+  color: #8a66f1;
+  font-size: 1rem;
+}
+.entry-btn {
+  width: 25vw;
+  height: 7.4vh;
+  margin-top: 5rem;
+  color: #f0ecfd;
+  background-color: #8a66f1;
+  border-radius: 2.5rem;
+  font-size: 1.5rem;
+  border: none;
+}
+.entry-btn:hover {
+  background-color: #6e3ef3;
+  transition: 0.3s;
+}
+.fa-circle {
+  margin-top: 1.8rem;
+  margin-left: 1.8rem;
+  color: rgb(54, 54, 54);
+}
