@@ -32,6 +32,9 @@ aside{
 .menu-bar, .income-expense, .search-bar .btn-mobile1{
     display: none;
 }
+.menu-bar{
+    display: none;
+}
 .transfer-mobile{
     display: none;
 }
@@ -99,16 +102,11 @@ aside a{
     display: none;
 
 }
-/* .ifeanyi-mobile{
-    display: flex;
-    justify-content: space-between;
-} */
+
 .fa-circle-question{
     margin-top: 3.8rem;
 }
-/* .Drizzy-Avatars{
-    height: 
-} */
+
  .drizzy{
     display: flex;
     justify-content: space-around;
@@ -117,9 +115,7 @@ aside a{
  .drizzy p{
     margin-left: 0.22rem;
  }
- /* .fa-arrow-right-from-bracket{
-    padding-top: 0.1rem;
- } */
+
  .get-help, .fa-circle-question, .fa-gear{
     color: #757575;
     margin-bottom: 0.5rem;
@@ -127,10 +123,7 @@ aside a{
  hr{
     border: 1px solid #EFEFEF
  }
-/* .aside-imgs{
-    width: 20px;
-    height: 20px;
-} */
+
 
 header{
     display: flex;
@@ -187,19 +180,6 @@ header .Ai-div button{
     margin-left: 0.2rem;
     margin-right: 0.2rem;
 }
-/* .expense{
-    padding: 8px 12px;
-    background: red;
-    width: 35%;
-} */
-/* .expense button{
-    border: none;
-    padding: 8px 12px;
-    border-radius: 18px;
-}
-.all-btn{
-    background-color: #CACACA;
-} */
 
 .transaction{
     display: flex;
@@ -415,10 +395,7 @@ input[type=checkbox]{
     color:#757575;
     /* font-size: 0.3rem; */
  }
- /* .menu-bar-tablet{
-    display: flex;
-    justify-content: space-between;
- } */
+ 
   .menu-tablet{
     position: absolute;
     margin-top: -0.8rem;
@@ -433,16 +410,6 @@ input[type=checkbox]{
  }
  .search-bar-tablet{
     display: block;
-
-    /* margin-top: 18px;
-    margin-left: 0.5rem;
-    font-size: 0.19rem;
-    color: #CACACA;
-    width: 4.8rem;
-    padding: 12px 16px;
-    background: #F7F7F7;
-    border-radius: 36px;
-    border: none; */
  }
  .Ai-div{
     margin-left: 7rem;
@@ -455,6 +422,12 @@ input[type=checkbox]{
  }
  .filters{
     margin-left: -50px;
+ }
+ .menu-bar{
+    display: none;
+ }
+ .income-expense-tablet{
+    display: none;
  }
 }
 
@@ -552,10 +525,8 @@ input[type=checkbox]{
     .transactions-mobile-tablet, .income-expense-tablet{
         display: none;
     }
+    .menu-tablet{
+        display: none;
+    }
 }
 
-/* table tr .flex-td{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */

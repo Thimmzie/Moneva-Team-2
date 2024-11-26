@@ -144,9 +144,7 @@ input[type=image]{
 #sign-up .input-sign-up .account a{
     font-size: 0.22rem;
 }
-.account-2{
 
-}
 
 /* for tablet responsiveness*/
 @media(max-width:1024px){
@@ -189,7 +187,7 @@ input[type=image]{
         border-radius: 10px;
         border: 1px solid #EFEFEF;
         width: 40vw;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.7rem;
         margin-top: 0.1rem;
     }
     .btn-1{
@@ -201,27 +199,18 @@ input[type=image]{
         padding-left: 8rem;
     }
     
-    /* #sign-up .input-sign-up .account p{
-        text-align: center;
-        font-size: 4rem;
-    } */
-    /* input[type=checkbox]{
-        font-size: 0.8rem;
-    } */
+    
     label{
         font-size: 1rem;
     }
     #sign-up .input-sign-up h1{
-        font-size: 2rem;
+        font-size: 2rem;  
     }
-    /* .logo img{
-        padding-left: 0.6rem;
-        padding-top: 0.4rem;
-        display: flex;
-
+    #sign-up .input-sign-up p{
+        margin-bottom: 0.8rem;
         
-        justify-content: space-around;
-    } */
+    }
+   
     
 
 }
@@ -264,9 +253,7 @@ input[type=image]{
     .btn-1{
         width: 83vw;
     }
-    /* #sign-up .input-sign-up .account{
-        text-align: center;
-    } */
+    
     #sign-up .input-sign-up .account{
         width: 83vw;
         margin-top: 2.8rem;
@@ -278,13 +265,8 @@ input[type=image]{
     }
     #sign-up .input-sign-up .account-2{
         text-align: center;
+        font-size: 1.1rem;
         
     }
-    /* .input-fb{
-        width: 33vw;
-    } */
-    /* .sign-in .input-sign-in .google-img{
-        width: 33vw;
-        margin-top: 0.3rem;
-     } */
+    
 }
