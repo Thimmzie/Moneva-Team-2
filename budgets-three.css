@@ -412,3 +412,6 @@ html {
 .fa-arrow-right {
   padding-left: 0.5rem;
 }
+.extra-income a {
+  text-decoration: none;
+}

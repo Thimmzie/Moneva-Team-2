@@ -304,3 +304,6 @@ label {
 .pop-button {
   margin-top: 3.5rem;
 }
+.extra-income a {
+  text-decoration: none;
+}
