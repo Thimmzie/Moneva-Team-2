@@ -542,7 +542,7 @@ html {
   padding-left: 2rem;
 }
 .categories-right {
-  margin-left: 60rem;
+  margin-left: 50rem;
 }
 .filter-btn {
   background-color: #ffffff;
@@ -550,7 +550,7 @@ html {
   width: 7.7vw;
   height: 6vh;
   border-radius: 0.7rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .add-btn {
   border-radius: 4rem;
@@ -572,12 +572,100 @@ html {
 .category-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.8rem;
-  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 98%;
+  margin-left: 1rem;
 }
-#category-img {
-  width: 30vw;
-  height: 25vh;
+.transport-card {
+  border: solid 0.2rem rgba(190, 189, 189, 0.15);
+  width: 31vw;
+  height: 26vh;
+  border-radius: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.transport-card:hover {
+  background-color: #f8f8f8;
+}
+.transport-top {
+  display: flex;
+}
+#category-card-img {
+  width: 3.5vw;
+}
+.transport-card-text {
+  margin-left: 1rem;
+}
+.transport-card-text h1 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #595959;
+  padding-bottom: 1.1rem;
+}
+.transport-p {
+  color: #807f7f;
+  font-size: 1.1rem;
+  padding-right: 1rem;
+}
+.bottom {
+  display: flex;
+}
+.options {
+  margin-left: 4.3rem;
+}
+.transport-bottom {
+  display: flex;
+  margin-top: 3.5rem;
+}
+.progress-text {
+  color: #a09f9f;
+  font-size: 1rem;
+}
+.progress-text-two {
+  margin-left: 12.3rem;
+  margin-top: -0.6rem;
+}
+.progress-text-two {
+  color: #a09f9f;
+  font-size: 1rem;
+}
+.progress-text-two span {
+  font-size: 1.2rem;
+  color: #2b2a2a;
+  font-weight: 600;
+}
+.card-general-progress {
+  background-color: #ededed;
+  width: 23vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+  margin-top: 2rem;
+}
+.real-progress {
+  background-color: #8a66f1;
+  width: 12vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.yellow-progress {
+  background-color: #ffcc00;
+  width: 18vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.real-progress-two {
+  background-color: #8a66f1;
+  width: 18vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.red-progress {
+  background-color: #ff4c4c;
+  width: 23vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
 }
 .fa-plus {
   padding-right: 0.8rem;

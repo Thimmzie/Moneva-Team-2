@@ -159,6 +159,10 @@ html {
   margin-left: 0rem;
   margin-top: 1.2rem;
 }
+.mobile-new-logo {
+  visibility: collapse;
+  position: absolute;
+}
 .fa-bars {
   visibility: visible;
   font-size: 0rem;
@@ -556,14 +560,105 @@ html {
 .category-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.8rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 98%;
 }
-#category-img {
+.transport-card {
+  border: solid 0.2rem rgba(190, 189, 189, 0.15);
   width: 25.5vw;
-  height: 27vh;
+  height: 26vh;
+  border-radius: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
   cursor: pointer;
+  transition: 0.5s;
+}
+.transport-card:hover {
+  background-color: #f8f8f8;
+}
+.transport-top {
+  display: flex;
+}
+#category-card-img {
+  width: 3.5vw;
+}
+.transport-card-text {
+  margin-left: 1rem;
+}
+.transport-card-text h1 {
+  font-weight: 500;
+  font-size: 1.9rem;
+  color: #595959;
+  padding-bottom: 1.1rem;
+}
+.transport-p {
+  color: #807f7f;
+  font-size: 1.4rem;
+  padding-right: 1rem;
+}
+.bottom {
+  display: flex;
+}
+.options {
+  margin-left: 4.3rem;
+}
+.transport-bottom {
+  display: flex;
+  margin-top: 3.5rem;
+}
+.progress-text {
+  color: #a09f9f;
+  font-size: 1.2rem;
+}
+.progress-text-two {
+  margin-left: 12.3rem;
+  margin-top: -0.6rem;
+}
+.progress-text-two {
+  color: #a09f9f;
+  font-size: 1.1rem;
+}
+.progress-text-two span {
+  font-size: 1.6rem;
+  color: #2b2a2a;
+  font-weight: 600;
+}
+.card-general-progress {
+  background-color: #ededed;
+  width: 23vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+  margin-top: 2rem;
+}
+.real-progress {
+  background-color: #8a66f1;
+  width: 12vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.yellow-progress {
+  background-color: #ffcc00;
+  width: 18vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.real-progress-two {
+  background-color: #8a66f1;
+  width: 18vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.red-progress {
+  background-color: #ff4c4c;
+  width: 23vw;
+  height: 1.3vh;
+  border-radius: 1.6rem;
+}
+.last-list {
+  margin-top: 4rem;
+  margin-left: -73rem;
+  margin-bottom: 3rem;
+  overflow-y: hidden;
 }
 .fa-plus {
   padding-right: 0.8rem;
@@ -576,4 +671,7 @@ html {
 }
 .header-search-box-mobile {
   visibility: hidden;
+}
+#trans {
+  text-decoration: none;
 }

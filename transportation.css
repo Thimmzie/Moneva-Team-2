@@ -18,7 +18,7 @@ body {
   src: url(font/Gilroy/Gilroy-Regular.otf);
 }
 .transportation-prompt {
-  height: 300vh;
+  height: 284vh;
   width: 33vw;
   position: absolute;
   left: 90rem;
@@ -28,6 +28,8 @@ body {
   padding-left: 2rem;
   padding-right: 3rem;
   padding-top: 1rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 #cancel {
   margin-left: 38rem;
@@ -251,6 +253,317 @@ input:checked + .button::before {
   font-size: 1.3rem;
   padding-top: 1.2rem;
 }
+.spending-container {
+  width: 31vw;
+  height: 62vh;
+  border-radius: 2rem;
+  margin-bottom: -1.5rem;
+  position: relative;
+  margin-top: 3rem;
+}
+.spending-slide1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.trends {
+  color: rgba(89, 89, 89, 1);
+  font-size: 1.5rem;
+  padding-bottom: 2.8rem;
+  font-weight: 600;
+}
+.average {
+  font-size: 1.1rem;
+  color: rgb(153, 150, 150);
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+.average-figure {
+  font-size: 1.9rem;
+  color: rgba(89, 89, 89, 1);
+  font-weight: 800;
+}
+.view {
+  font-size: 1.4rem;
+  color: rgb(153, 150, 150);
+  font-weight: 300;
+}
+.green-20 {
+  color: #3fd03f;
+  font-size: 1rem;
+  padding-left: 1.3rem;
+}
+.spending-slide2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 3.8rem;
+  margin-bottom: 10rem;
+}
+.tag1 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+.tag2 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+.tag3 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+.tag4 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+.tag5 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+.tag6 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+.tag7 {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+
+.jan-chart {
+  background-color: #f3f0fe;
+  width: 3vw;
+  height: 16.6vh;
+  border-radius: 0.7rem;
+  margin-top: 8rem;
+}
+.jan-chart:hover {
+  background-color: #8a66f1;
+}
+
+.feb-chart {
+  background-color: #f3f0fe;
+  width: 3vw;
+  height: 8.9vh;
+  border-radius: 0.7rem;
+  margin-top: 13rem;
+}
+.feb-chart:hover {
+  background-color: #8a66f1;
+}
+.tag {
+  padding-top: 1.8rem;
+  color: rgb(153, 150, 150);
+  padding-left: 1rem;
+}
+
+.march-chart {
+  background-color: #f3f0fe;
+  width: 3vw;
+  height: 19vh;
+  border-radius: 0.7rem;
+  margin-top: 6.5rem;
+}
+.march-chart:hover {
+  background-color: #8a66f1;
+}
+
+.april-chart {
+  background-color: #8a66f1;
+  width: 3vw;
+  height: 29.5vh;
+  border-radius: 0.7rem;
+  margin-top: -0.3rem;
+}
+.april-chart:hover {
+  background-color: #8a66f1;
+}
+
+.may-chart {
+  background-color: #f3f0fe;
+  width: 3vw;
+  height: 27vh;
+  border-radius: 0.7rem;
+  margin-top: 1.3rem;
+}
+.may-chart:hover {
+  background-color: #8a66f1;
+}
+
+.june-chart {
+  background-color: #f3f0fe;
+  width: 3vw;
+  height: 13.7vh;
+  border-radius: 0.7rem;
+  margin-top: 9.8rem;
+}
+.june-chart:hover {
+  background-color: #8a66f1;
+}
+
+.july-chart {
+  background-color: #f3f0fe;
+  width: 3vw;
+  height: 19vh;
+  border-radius: 0.7rem;
+  margin-top: 6.5rem;
+}
+.july-chart:hover {
+  background-color: #8a66f1;
+}
+.category-itemm {
+  display: flex;
+  margin-bottom: 3.5rem;
+  margin-top: 3rem;
+}
+.categories-rightt {
+  margin-left: 9.5rem;
+  margin-top: 2rem;
+}
+.category-itemm h1 {
+  color: #6d6c6c;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 2.6rem;
+}
+.filter-btnn {
+  background-color: #ffffff;
+  border: solid 0.2rem rgba(214, 212, 212, 0.6);
+  width: 5.6vw;
+  height: 5vh;
+  border-radius: 0.7rem;
+  margin-right: 1rem;
+}
+.add-btnn {
+  border-radius: 4rem;
+  width: 9.5rem;
+  height: 5vh;
+  border: none;
+  background-color: #8a66f1;
+  color: #f8f6f6;
+}
+.add-btn:hover {
+  background-color: #7e54f3;
+}
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fcfcfc;
+  height: 9.5vh;
+  padding-top: 2.1rem;
+  margin-left: -1.5rem;
+  margin-right: rem;
+  padding-right: 8.5rem;
+  padding-left: 1.5rem;
+}
+#mycheck {
+  margin-left: 1.5rem;
+}
+.name-tag {
+  display: flex;
+}
+.name-tag1 p {
+  color: rgb(117, 116, 116);
+  font-size: 1.25rem;
+  padding-right: 0.7rem;
+  padding-left: 3.2rem;
+}
+.transaction-detail {
+  display: flex;
+  border-bottom: solid 0.2rem rgba(214, 212, 212, 0.15);
+  padding-top: 2.5rem;
+  justify-content: space-between;
+  padding-bottom: 1.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.transaction-detail:hover {
+  background-color: #fcfcfc;
+}
+.transaction-detail2 {
+  display: flex;
+  padding-top: 2.5rem;
+  justify-content: space-between;
+  padding-bottom: 1.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.transaction-detail2:hover {
+  background-color: #fcfcfc;
+}
+.transaction-detail-item1 {
+  display: flex;
+}
+.transaction-check {
+  margin-left: -1.4rem;
+  margin-top: 1.1rem;
+}
+.transaction-img-div {
+  margin-left: 1.8rem;
+}
+.transaction-names {
+  margin-left: 1rem;
+}
+.definite-name {
+  font-size: 1.3rem;
+  color: rgb(117, 116, 116);
+}
+.mode {
+  font-size: 1.1rem;
+  color: rgb(182, 179, 179);
+  padding-top: 0.3rem;
+}
+.serial-num {
+  font-size: 1.3rem;
+  color: rgb(117, 116, 116);
+  padding-top: 0.8rem;
+}
+.serial-btn {
+  width: 5.2vw;
+  height: 3.3vh;
+  background-color: #f7fff7;
+  color: #70dd70;
+  border-radius: 5rem;
+  border: solid 0.1rem #70dd70;
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+  margin-left: -3rem;
+}
+.transaction-fig {
+  font-size: 1.3rem;
+  color: rgb(117, 116, 116);
+  padding-top: 0.8rem;
+  margin-left: -2rem;
+}
+.transaction-text {
+  font-size: 1.3rem;
+  color: rgb(117, 116, 116);
+  padding-top: 0.8rem;
+  margin-left: 2rem;
+}
+.fa-caret-down {
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+}
+.transaction-date {
+  font-size: 1.3rem;
+  color: rgb(117, 116, 116);
+  margin-right: -0.5rem;
+}
+.transaction-time {
+  font-size: 1.1rem;
+  color: rgb(182, 179, 179);
+  padding-top: 0.2rem;
+}
 .sidebar {
   background-color: #f3f0fe;
   width: 17vw;
@@ -392,6 +705,7 @@ input:checked + .button::before {
   margin-left: 25rem;
   display: inline-block;
   overflow-x: hidden;
+  position: fixed;
 }
 .header-container {
   display: flex;
@@ -558,6 +872,7 @@ input:checked + .button::before {
   color: #494949;
   font-weight: 300;
   padding-bottom: 2.3rem;
+  z-index: 1;
 }
 #monthly-img {
   margin-left: 1rem;
@@ -618,7 +933,8 @@ input:checked + .button::before {
   margin-right: 2rem;
 }
 .jan-chart {
-  background-color: #f3f0fe;
+  background-color: #575270;
+  opacity: 0.1;
   width: 3vw;
   height: 16.6vh;
   border-radius: 0.7rem;
@@ -634,7 +950,8 @@ input:checked + .button::before {
 }
 
 .feb-chart {
-  background-color: #f3f0fe;
+  background-color: #575270;
+  opacity: 0.1;
   width: 3vw;
   height: 8.9vh;
   border-radius: 0.7rem;
@@ -661,7 +978,8 @@ input:checked + .button::before {
 }
 
 .april-chart {
-  background-color: #f3f0fe;
+  background-color: #575270;
+  opacity: 0.1;
   width: 3vw;
   height: 13.7vh;
   border-radius: 0.7rem;
@@ -672,7 +990,8 @@ input:checked + .button::before {
 }
 
 .may-chart {
-  background-color: #f3f0fe;
+  background-color: #575270;
+  opacity: 0.1;
   width: 3vw;
   height: 25vh;
   border-radius: 0.7rem;
@@ -683,7 +1002,8 @@ input:checked + .button::before {
 }
 
 .june-chart {
-  background-color: #f3f0fe;
+  background-color: #575270;
+  opacity: 0.1;
   width: 3vw;
   height: 13.7vh;
   border-radius: 0.7rem;
@@ -824,4 +1144,8 @@ input:checked + .button::before {
 }
 .header-search-box-mobile {
   visibility: hidden;
+}
+.fa-x {
+  font-size: 2rem;
+  margin-left: 38rem;
 }
