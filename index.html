@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <title>Moneva</title>
-     <link rel="stylesheet" href="style.css" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moneva</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="tablet.css" media="(max-width:1024px)" />
+  <link rel="stylesheet" href="mobile.css" media="(max-width:600px)" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
+</head>
+
 <body>
   <header id="Home">
     <div class="header-container">
@@ -23,33 +26,27 @@
             <li><a href="#Home">Home</a></li>
             <li><a href="#Pricing">Pricing</a></li>
             <li><a href="#Features">Features</a></li>
-            <li><a href="#Company">Reviews</a></li>
+            <li><a href="#Company">Company</a></li>
           </ul>
         </div>
         <div class="button-div">
-          <a href="./sign-up.html"><button class="btn1">Get started</button></a>
+          <a href="#Pricing"><button class="btn1">Get started</button></a>
         </div>
-         <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
+         <div class="burger-icon2"><i class="fa-solid fa-bars"></i></div>
       </div>
       </div>
       <div class="hero-box-1">
-        <div>
         <h2>
-          Take Control of Your
+          Take Control of Your <br />
           <span class="hero-span">Finances with Moneva</span>
         </h2>
-        </div>
         <p>
           Your all-in-one tool for managing budgets, tracking expenses, and
           <br />
           reaching savings goals
         </p>
         <div class="hero-buttons">
-          <a href="./sign-up.html"><button class="btn2">Get started</button></a>
+          <a href="#Pricing"><button class="btn2">Get started</button></a>
           <a href="#Features"><button class="btn3">Explore features</button></a>
         </div>
         <div class="hero-img-div">
@@ -82,7 +79,7 @@
           manage your money
         </h2>
         <p>
-          Maximize your finances with our user friendly features that help
+          Maximize your finances with out user friendly features that help
           <br />
           you track and manage your finances
         </p>
@@ -92,10 +89,10 @@
           <h2>Budgeting Made Easy</h2>
           <p>
             Track your spending by category and set spending <br />
-            limits with progress alerts
+            limits with progress chart
           </p>
         </div>
-        <div class="budget-img-div">
+        
         <div class="budget-slide2">
           <img id="utilities-img-new" src="images/utilities.png" />
           <img id="utilities-img-new" src="images/entertainment.png" />
@@ -103,7 +100,7 @@
         <div class="budget-slide3">
           <img id="budget-img-new" src="images/budget.png" />
         </div>
-        </div>
+
       </div>
       <div class="savings-expense-slide">
         <div class="savings-box">
@@ -112,11 +109,10 @@
             Set and track your savings with personalized <br />
             recommendations to stay on target
           </p>
-          <div class="savings-img-div">
-          <img id="savings-img" src="images/savings-new.png" />
-          </div>
+          <img id="savings-img" src="images/savings.png" />
         </div>
-        <div class="expense-box"> 
+        <div class="expense-box">
+          <div class="expense-img-div"><img id="expense-img" src="images/expense.png" /></div>
           <div class="expense-text-div">
           <h2>Expense Tracking</h2>
           <p>
@@ -124,7 +120,6 @@
             amount, or category
           </p>
           </div>
-           <div class="expense-img-div"><img id="expense-img" src="images/expense.png" /></div>
         </div>
       </div>
       <div class="insights-box">
@@ -211,7 +206,7 @@
             the predictive alerts help me avoid overspending
           </p>
           <h4>Adetayo Johnson</h4>
-          <img id="star-review" src="images/4-stars.png" />
+          <img id="star-review" src="images/star_review-removebg-preview.png" />
         </div>
         <div class="angle-left"><i class="fa-solid fa-angle-left"></i></div>
         <div class="angle-right"><i class="fa-solid fa-angle-right"></i></div>
@@ -292,17 +287,24 @@
             <li><i class="fa-solid fa-check"></i>Priority Customer Support 24/7</li>
           </ul>
         </div>
-        
       </div>
-       <div class="mobile-toggle"><img src="images/mobile-toggle.png"></div>
       </div>
-      
+      </div>
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
       </div>
       <div class="journey-box">
         <p class="journey-principal">Start Your Journey to <br> Financial Wellness with Moneva</p>
         <p class="journey-asset">Take control of your finances today and watch your financial <br> dreams become reality
         </p>
-        <a href="http://127.0.0.1:5500/sign-up.html"><button class="btn12">Get started</button></a>
+        <a href="#Pricing"><button class="btn12">Get started</button></a>
       </div>
     </div>
   </section>
@@ -352,42 +354,6 @@
           <li>Data Export and Deletion</li>
         </ul>
       </div>
-      <div class="mobile-footer">
-         <ul class="mobile-footer-ul">
-          <li><a href="#">Company</a>
-           <ul class="dropdown">
-          <li><a href="#">About us</a</li>
-          <li><a href="#">Careers</a</li>
-           <li><a href="#">Blog</a</li>
-          <li><a href="#">Feather Internet</a</li>
-           </ul>
-           </li>
-          <li><a href="#">Product</a>
-           <ul class="dropdown">
-          <li><a href="#">Features</a</li>
-          <li><a href="#">Pricing</a</li>
-           <li><a href="#">FAQs</a</li>
-          <li><a href="#">API Access</a</li>
-           </ul>
-           </li>
-           <li><a href="#">Resources</a>
-            <ul class="dropdown">
-          <li><a href="#">Help Center</a</li>
-          <li><a href="#">User Guide</a</li>
-           </ul>
-           </li>
-           <li><a href="#">Legal</a>
-           <ul class="dropdown">
-          <li><a href="#">Privacy Policy</a</li>
-           </ul>
-           </li>
-         </ul>
-          <div class="angle-one"><i class="fa-solid fa-angle-down"></i></div>
-      <div class="angle-two"><i class="fa-solid fa-angle-down"></i></div>
-      <div class="angle-three"><i class="fa-solid fa-angle-down"></i></div>
-      <div class="angle-four"><i class="fa-solid fa-angle-down"></i></div>
-      </div>
-     
     </div>
     <div class="horizontal-line"></div>
     <div class="footer-extension">
@@ -396,14 +362,15 @@
         <img id="appstore" src="images/appstore.png">
       </div>
       <div class="social-links">
-        <a href="https://www.facebook.com/Vephlauniversity/"><img id="social-img" src="images/facebook link.png"></a>
-        <a href="https://uk.linkedin.com/school/vephlagroup/"><img id="social-img" src="images/linkedln link.png"></a>
-        <a href="https://twitter.com/VephlaUni"><img id="social-img" src="images/twitter link.png"></a>
-        <a href="https://www.instagram.com/vephla.uni/p/C0GtLe8MltN/"><img id="social-img" src="images/instagram link.png"></a>
-       <a href="mailto:vephlauni@gmail.com" title="Send us a mail here"><img id="social-img" src="images/gmail link.png"></a>
+        <img id="social-img" src="images/facebook link.png">
+        <img id="social-img" src="images/linkedln link.png">
+        <img id="social-img" src="images/twitter link.png">
+        <img id="social-img" src="images/instagram link.png">
+        <img id="social-img" src="images/gmail link.png">
       </div>
     </div>
   </footer>
   <script src="app.js"></script>
 </body>
+
 </html>
